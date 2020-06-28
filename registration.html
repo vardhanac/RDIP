@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 100;
+}
+
+li {
+  display: inline;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  margin-top: 110px;
+  width: 100%;
+  
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+h2 {
+  padding-top:180px;  
+}
+.myDiv {
+  padding-top: 0px; 
+}
+form {
+  padding-top: 200px;
+}
+</style>
+<div class="container">
+  <a href="https://www.iiit.ac.in/">  
+  <img src="C:\Users\HP\Downloads\iiitimage.jpg" alt="IIIT logo" width="100" height="100" align="left">
+</div>
+
+<div class="container">
+  <img src="C:\Users\HP\Downloads\rdipimage.jpg" width="100" height="50" align="right">
+</div>
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="homepage.html">Home</a>
+  <a href="registration.html">Registration Form</a>
+</div>
+
+  <title>Register Form</title>
+</head>
+<body>
+ <form action="details.html" method="get">
+  <table>
+   <tr>
+    <td>First Name :</td>
+    <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email"></td>
+   </tr>
+    <tr>
+    <td>Phone no :</td>
+    <td>
+     <select>
+      <option>+91</option>
+     </select>
+     <input type="phone">
+    </td>
+   </tr>
+    <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="Gender"> Male
+     <input type="radio" name="Gender"> Female
+     <input type="radio" name="Gender"> Others
+    </td>
+   </tr>
+   <tr>
+    <tr>
+    <td>Reason for RDIP:</td>
+    <td>
+     <input type="radio" name="details"> HTML
+     <input type="radio" name="details"> CSS
+     <input type="radio" name="details"> Javascript
+    </td>
+   </tr>
+  <tr>
+    <td>College :</td>
+    <td><input type="text"></td>
+   </tr>
+  <tr> 
+  <td><input type="radio" name=""></td>
+  <td><p> I declare above details given by me are true</td> 
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
