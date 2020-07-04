@@ -1,0 +1,13 @@
+input[type="button"] 
+{ 
+background-color:rgb(200,200,200); 
+color: red; 
+border: solid rgb(10, 10, 10) 2px; 
+width:100% 
+} 
+input[type="text"] 
+{ 
+background-color:yellow; 
+border: solid black 2px; 
+width:100% 
+}

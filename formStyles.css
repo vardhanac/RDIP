@@ -1,0 +1,28 @@
+   h1{
+         color:palevioletred
+     }
+   div {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+input[type=submit]:active {
+  background-color: purple;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:plum;
+}
+        input[type=text]{
+            text-align: center;
+            padding-left: 40px;
+            height: 25px;
+        }
+    
